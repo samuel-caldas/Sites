@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<site SitePrefVersionMajor="12" SitePrefVersionMinor="0">
+    <localinfo sitename="Sarom" ftporrdsserver="FALSE" mediaqueryfile="" localroot="E:%5Cwamp%5Cwww%5Csarom%5C" assetfolder="E:%5Cwamp%5Cwww%5Csarom%5CjQueryAssets%5C" webfontsfolder="E:%5Cwamp%5Cwww%5Csarom%5Cwebfonts%5C" edgeassetsfolder="E:%5Cwamp%5Cwww%5Csarom%5Cedgeanimate_assets%5C" imagefolder="" spacerfilepath="" refreshlocal="TRUE" rewritedocrellinks="FALSE" cache="FALSE" httpaddress="http://floresdesarom.com.br/" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="appserver"/>
+    <designnotes usedesignnotes="TRUE" sharedesignnotes="FALSE"/>
+    <sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
+    <bcinfo siteid="0" sitename="" secureURL=""/>
+    <fileviewcolumns sharecolumns="FALSE">
+        <column name="Local%20Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="80" remotewidth="180"/>
+        <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="36" remotewidth="36"/>
+        <column name="Size" align="right" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-2" remotewidth="-2"/>
+        <column name="Type" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="60" remotewidth="60"/>
+        <column name="Modified" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="102" remotewidth="102"/>
+        <column name="Checked%20Out%20By" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1"/>
+</fileviewcolumns>
+    <serverlist>
+        <server servermodel="" servertype="remoteServer" weburl="http://floresdesarom.com.br/" connectionsmigrated="FALSE" serverobjectsversion="1" defaultdoctype="HTML" accesstype="ftp" host="ftp.floresdesarom.com.br" remoteroot="www/" name="Sarom" maintainSyncInfo="TRUE" autoUpload="FALSE" user="floresde" pw="363337343C393F3A" savePW="TRUE" enablecheckin="FALSE" checkoutname="" checkoutwhenopen="TRUE" emailaddress="" usefirewall="FALSE" usepasv="TRUE" useSFTP="FALSE" useFTPS="FALSE" useImplicitFTPS="FALSE" encryptOnlyCommandChannel="FALSE" authenticationMode="TRUSTED_CERTIFICATE" useIPv6="FALSE" useftpoptimization="TRUE" usealternaterename="FALSE" pathNameCharacterSet="utf-8"/>
+        <server servermodel="PHP%20MySQL" servertype="testingServer" weburl="http://localhost/sarom/" connectionsmigrated="FALSE" serverobjectsversion="1" defaultdoctype="HTML" accesstype="lan" remoteroot="E:/wamp/www/sarom/" name="wamp" maintainSyncInfo="TRUE" autoUpload="TRUE" enablecheckin="FALSE" checkoutname="" checkoutwhenopen="TRUE" emailaddress="" refreshremote="FALSE" testsvrbinaccesstype="none"/>
+</serverlist>
+    <cloaking enabled="TRUE" patterns="FALSE">
+        <cloakedfolder folder="dw_php_codehinting.config"/>
+        <cloakedpattern pattern=".fla"/>
+        <cloakedpattern pattern=".psd"/>
+</cloaking>
+    <contributorintegration enabled="FALSE"/>
+</site>
